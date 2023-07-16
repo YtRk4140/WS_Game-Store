@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>New Account</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Create New Account</h1>
+        <form action="MainController" method="post">
+            Username* <input type="text" name="textUsername" value="" />(4 - 20 chars)<br/>
+            Password* <input type="password" name="textPassword" value="" />(4 - 30 chars)<br/>
+            Confirm*  <input type="password" name="textConfirm" value="" /><br/>
+            Full name <input type="text" name="textLastName" value="" />(2 - 50 chars)<br/>
+            <input type="submit" name="btAction" value="Create New Account"/>
+            <input type="reset" value="Reset"/>
+        </form>
+    </body>
+</html>
